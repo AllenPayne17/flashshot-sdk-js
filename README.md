@@ -8,7 +8,7 @@ The official JavaScript & TypeScript SDK for the FlashShot Screenshot API.
 [![TypeScript](https://img.shields.io/badge/TypeScript-Ready-blue.svg)](https://www.typescriptlang.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-[Website](https://flashshot.dev) &middot; [Documentation](https://docs.flashshot.dev) &middot; [Dashboard](https://app.flashshot.dev)
+[Website](https://www.flashshot.dev) &middot; [Documentation](https://www.flashshot.dev/docs) &middot; [Dashboard](https://www.flashshot.dev/dashboard)
 
 </div>
 
@@ -391,6 +391,6 @@ MIT
 
 <div align="center">
 
-[Website](https://flashshot.dev) &middot; [Documentation](https://docs.flashshot.dev) &middot; [Dashboard](https://app.flashshot.dev)
+[Website](https://www.flashshot.dev) &middot; [Documentation](https://www.flashshot.dev/docs) &middot; [Dashboard](https://www.flashshot.dev/dashboard)
 
 </div>
