@@ -1,7 +1,7 @@
 {
   "name": "flashshot-sdk",
-  "version": "1.0.0",
-  "description": "Official JavaScript/TypeScript SDK for the FlashShot Screenshot API",
+  "version": "1.0.1",
+  "description": "Screenshot API SDK — capture any website URL and get a hosted image with AI analysis. Supports ad blocking, stealth mode, device emulation, and caching.",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
@@ -27,14 +27,31 @@
   },
   "keywords": [
     "screenshot",
-    "api",
+    "screenshot-api",
+    "website-screenshot",
+    "url-to-image",
+    "webpage-capture",
+    "html-to-image",
+    "puppeteer",
+    "headless-browser",
+    "ai-analysis",
     "flashshot",
-    "browser",
-    "capture",
-    "headless"
+    "screen-capture",
+    "website-thumbnail",
+    "ad-blocking",
+    "stealth-mode",
+    "device-emulation"
   ],
   "author": "FlashShot",
   "license": "MIT",
+  "homepage": "https://www.flashshot.dev",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AllenPayne17/flashshot-sdk-js"
+  },
+  "bugs": {
+    "url": "https://github.com/AllenPayne17/flashshot-sdk-js/issues"
+  },
   "devDependencies": {
     "tsup": "^8.0.0",
     "typescript": "^5.4.0"
