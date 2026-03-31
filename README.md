@@ -1,14 +1,14 @@
 <div align="center">
 
-# @flashshot/sdk
+# flashshot-sdk
 
 The official JavaScript & TypeScript SDK for the FlashShot Screenshot API.
 
-[![npm version](https://img.shields.io/npm/v/@flashshot/sdk.svg)](https://www.npmjs.com/package/@flashshot/sdk)
+[![npm version](https://img.shields.io/npm/v/flashshot-sdk.svg)](https://www.npmjs.com/package/flashshot-sdk)
 [![TypeScript](https://img.shields.io/badge/TypeScript-Ready-blue.svg)](https://www.typescriptlang.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-[Website](https://www.flashshot.dev) &middot; [Documentation](https://www.flashshot.dev/docs) &middot; [Dashboard](https://www.flashshot.dev/dashboard)
+[Website](https://www.flashshot.dev) &middot; [Documentation](https://www.flashshot.dev/docs) &middot; [Dashboard](https://www.flashshot.dev/dashboard) &middot; [npm](https://www.npmjs.com/package/flashshot-sdk)
 
 </div>
 
@@ -22,13 +22,13 @@ FlashShot is a high-performance screenshot API that captures pixel-perfect image
 
 ```bash
 # npm
-npm install @flashshot/sdk
+npm install flashshot-sdk
 
 # yarn
-yarn add @flashshot/sdk
+yarn add flashshot-sdk
 
 # pnpm
-pnpm add @flashshot/sdk
+pnpm add flashshot-sdk
 ```
 
 > **Requires Node.js 20 or later.**
@@ -36,7 +36,7 @@ pnpm add @flashshot/sdk
 ## Quick Start
 
 ```typescript
-import { FlashShot } from '@flashshot/sdk';
+import { FlashShot } from 'flashshot-sdk';
 
 const flashshot = new FlashShot('fs_your_api_key');
 
@@ -195,7 +195,7 @@ Every option below can be passed to `screenshot()` or `batch()`.
 All API errors throw a `FlashShotError` with structured fields for easy programmatic handling.
 
 ```typescript
-import { FlashShot, FlashShotError } from '@flashshot/sdk';
+import { FlashShot, FlashShotError } from 'flashshot-sdk';
 
 const flashshot = new FlashShot('fs_your_api_key');
 
@@ -231,7 +231,7 @@ Client errors (4xx other than 429) are thrown immediately and are never retried.
 The SDK is written in TypeScript and ships with complete type definitions. All responses are fully typed out of the box.
 
 ```typescript
-import { FlashShot } from '@flashshot/sdk';
+import { FlashShot } from 'flashshot-sdk';
 import type {
   ScreenshotOptions,
   ScreenshotResponse,
@@ -243,7 +243,7 @@ import type {
   BasicAuth,
   ImageFormat,
   DevicePreset,
-} from '@flashshot/sdk';
+} from 'flashshot-sdk';
 
 const flashshot = new FlashShot('fs_your_api_key');
 
@@ -391,6 +391,6 @@ MIT
 
 <div align="center">
 
-[Website](https://www.flashshot.dev) &middot; [Documentation](https://www.flashshot.dev/docs) &middot; [Dashboard](https://www.flashshot.dev/dashboard)
+[Website](https://www.flashshot.dev) &middot; [Documentation](https://www.flashshot.dev/docs) &middot; [Dashboard](https://www.flashshot.dev/dashboard) &middot; [npm](https://www.npmjs.com/package/flashshot-sdk)
 
 </div>
